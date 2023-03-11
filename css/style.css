@@ -1,0 +1,609 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  height: 75px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 34px 36px;
+  text-decoration: none;
+}
+
+
+#logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#logodiv {
+  width: 100px;
+  height: 75px;
+  float: left;
+}
+
+
+#logoutLink {
+  display: inline-block;
+  /* displays the link as a block-level element */
+  padding: 10px;
+  /* adds some padding to the link */
+}
+
+#logout {
+  width: 35px;
+  height: 35px;
+  margin-left: 20%;
+  margin-top: 45%;
+}
+
+#logoutdiv {
+  width: 100px;
+  height: 25px;
+  float: right;
+  text-align: right;
+  /* aligns the link to the right */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  /* on le colle en bas */
+  width: 100%;
+  height: 50px;
+  /* Hauteur du pied de page */
+  background-color: #333;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  margin-top: 1%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.login-box {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 30%;
+  margin-top: 20%;
+  border-radius: 5px;
+}
+
+h1 {
+
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+h4 {
+  color: black;
+}
+
+
+.circle {
+  color: #f2f2f2;
+  display: block;
+  width: 350px;
+  height: 350px;
+  border-radius: 200px;
+  /* makes the element circular */
+  text-align: center;
+  /* centers the text inside the circle */
+  line-height: 50px;
+  /* sets the line height of the text to the height of the circle */
+  background-color: #b66d25;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divSolde {
+  margin-left: 50px;
+}
+
+p.extra-margin {
+  padding-top: 75px;
+  font-size: 20px;
+}
+
+.nbPoints {
+  font-size: 35px;
+}
+
+.divSolde,
+.div2 {
+  float: left;
+}
+
+.div2 {
+  margin-top: -390px;
+  margin-left: 50%;
+}
+
+.loginForm {
+  margin-top: -25px;
+}
+
+/* Form container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #e6e1e1;
+  border-radius: 5px;
+}
+
+/* Form group */
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Form label */
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Input fields */
+input[type=text],
+input[type=password],
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+/* Checkbox */
+input[type=checkbox] {
+  margin-right: 8px;
+}
+
+/* Submit button */
+button[type=submit] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Avatar */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.avatar {
+  width: 5%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.btn-secondary {
+  background-color: lightgray;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+#signupH2 {
+  margin-left: 47%;
+}
+
+.error-message {
+  color: red;
+}
+
+#Psavoirdujour {
+  color: cadetblue;
+}
+
+.action {
+  height: 50px;
+  width: 50px;
+}
+
+.choixAction {
+  color: #e2c9af;
+  display: block;
+  width: 30px;
+  height: 70px;
+  border-radius: 200px;
+  /* makes the element circular */
+  text-align: center;
+  /* centers the text inside the circle */
+  line-height: 50px;
+  /* sets the line height of the text to the height of the circle */
+  background-color: #8bc280;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.choixAction a {
+  text-decoration: none;
+}
+
+.containerActions {
+  margin-left: 35%;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.containerActions>div {
+  width: 30.33%;
+}
+
+.descAction {
+  color: #333;
+}
+
+
+.gras {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  margin: 0 auto; /* center the table horizontally */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e5e5e5;
+}
+
+.addButton {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black with opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeForm {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeForm:hover,
+.closeForm:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-container {
+  display: none;
+}
+
+.back-btn {
+  margin-top: 20px;
+}
+
+.back-btn a {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-btn a:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.modifierForm {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* .actionButton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ba8927;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+} */
+
+#deleteButton:hover {
+  background-color: #a43030;
+}
+
+#modifierButton:hover ,#traiterButton:hover {
+  background-color: #b6d021;
+}
+
+#changeState:hover, #changeStateByTech:hover {
+  background-color: #147e7e;
+}
+
+#assignTicket:hover{
+  background-color: #4CAF50;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+
+.actionButton {
+  display: block;
+  padding: 10px;
+  background-color: #ccc;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+  width: 100%;
+  resize: vertical;
+}
+
+/* Style the select container */
+.form-group select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Style the default option */
+.form-group select option[disabled]:first-child {
+  display: none;
+}
+
+/* Style the options */
+.form-group select option {
+  padding: 10px;
+}
+
+/* Style the selected option */
+.form-group select option:checked {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.etat-recu{
+  background-color:#007bff;
+}
+
+.etat-en-cours{
+  background-color: orange;
+}
+
+.etat-en-attente{
+  background-color: grey;
+}
+
+.etat-non-traite{
+  background-color: rgb(195, 63, 63);
+}
+
+.etat-termine{
+  background-color: green;
+}
+
+.etat-cloture{
+  background-color: purple;
+}
+
+#stateForm, #assignerTicket {
+  display: none;
+  width: 200px;
+  margin-left: 45%;
+  margin-top: 2%;
+}
+
+#stateForm label, #assignerTicket label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#stateForm select, #assignerTicket select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#stateForm .form-buttons, #assignerTicket .form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#stateForm button, #assignerTicket button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+#stateForm button[type="submit"], #assignerTicket button[type="submit"] {
+  background-color: #28a745;
+}
+
+#stateForm button[type="button"], #assignerTicket button[type="button"] {
+  background-color: #dc3545;
+}
+
+table tr.etat-recu {
+  background-color: #007bff;
+}
