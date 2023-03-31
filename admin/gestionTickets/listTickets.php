@@ -34,7 +34,7 @@ if (isset($_POST['changerEtat'])) {
     if ($stmt->execute()) {
         //Ticket state updated successfully
         //Redirect the user to a success page
-        header("Location: listeTickets.php");
+        header("Location: listTickets.php");
         exit();
     } else {
         //An error occurred while updating the ticket state
